@@ -6,15 +6,15 @@ int main()
 {
 	string a, b;
 	cout << "pasirinkite darba" << endl;
-	cout << "   Procedurinio programavimo Laboratorinis 1                    - pp1" << endl;
-	cout << "   Procedurinio programavimo Laboratorinis 2                    - pp2" << endl;
-	cout << "   Procedurinio programavimo Laboratorinis 3                    - pp3" << endl;
+	cout << "   Procedurinio programavimo Laboratorinis 1                    - 1" << endl;
+	cout << "   Procedurinio programavimo Laboratorinis 2------DONE-IN-JAVA-----" << endl;
+	cout << "   Procedurinio programavimo Laboratorinis 3                    - 3" << endl;
 	cout << "   Baigti darba                                                 - bet kas kita" << endl;
 	cin >> a;
 	system("cls");
-	if (a == "pp1") {
-		cout << "Sveiki atvyke i pirma Juliaus laboratorini" << endl;
-		cout << "Kuri uzdavini norite paleisti? (Rinktis nuo 1 iki 20, arba 181 (18uz iter 1))" << endl;
+	if (a == "1") {
+		cout << "Pirmas laboratorinis" << endl;
+		cout << "Kuri uzdavini norite paleisti? (Rinktis nuo 1 iki 20)" << endl;
 		cin >> b;
 		system("cls");
 		if (b == "1") {
@@ -208,15 +208,9 @@ int main()
 			//
 		}
 	}
-	else if (a == "pp2") {
-		if (b == "1") {
-		}
-		else {
-			cout << "end" << endl;
-			//
-		}
-	}
-	else if (a == "pp3") {
+	else if (a == "3") {
+		cout << "Trecias laboratorinis" << endl;
+		cout << "Kuri uzdavini norite paleisti? (Rinktis nuo 1 iki 20)" << endl;
 	}
 	else {
 		return 0;//pabaiga
