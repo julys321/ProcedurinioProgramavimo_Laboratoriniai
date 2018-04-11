@@ -34,6 +34,14 @@ int main()
 			Lab1_Problem_2();
 		}
 		else if (b == "3") {
+			cout << "----SALYGA----" << endl;
+			cout << "Programuotojas gavo a euru atlyginima. Po metu buvo nuspresta jam pakelti atlyginima. Dabar jo alga yra b euru. Apskaiciuokite, keliais procentais buvo pakelta alga." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Du sveiki skaiciai a ir b (10 =< a =< 1000, a =< b =< 2500)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "Isvedamas vienas realus skaičus su 2 zenklais po kablelio." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_3();
 		}
 		else if (b == "4") {
 		}
