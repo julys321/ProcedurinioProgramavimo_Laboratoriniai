@@ -27,7 +27,7 @@ int main()
 			cout << "----SALYGA----" << endl;
 			cout << "Duotos staciakampio krastines a ir b. Raskite staciakampio perimetra." << endl;
 			cout << "----INPUT----" << endl;
-			cout << "Du sveiki skaiciai a ir b (0 < a, b =< 106)." << endl;
+			cout << "Du sveiki skaiciai a ir b (0 < a, b =< 10^6)." << endl;
 			cout << "----OUTPUT----" << endl;
 			cout << "Isveskite perimetra." << endl;
 			cout << "---------------------------------------------------" << endl;
@@ -47,18 +47,41 @@ int main()
 			cout << "----SALYGA----" << endl;
 			cout << "Apskaiciuokite funkcijos reiksme: x= (b+sqrt(b^2-(a*c)))/(2*a)" << endl;
 			cout << "----INPUT----" << endl;
-			cout << "Trys sveiki skaiciai a, b ir c (-106 =< a, b, c =< 106, ac =< b2 ir a != 0)." << endl;
+			cout << "Trys sveiki skaiciai a, b ir c (-10^6 =< a, b, c =< 10^6, ac =< b2 ir a != 0)." << endl;
 			cout << "----OUTPUT----" << endl;
 			cout << "isvedamas realaus tipo skaicius, triju skaitmenu po kablelio tikslumu." << endl;
 			cout << "---------------------------------------------------" << endl;
 			Lab1_Problem_4();
 		}
 		else if (b == "5") {
+			cout << "----SALYGA----" << endl;
+			cout << "Apskaiciuokite sia funkcija x= 2*sin(a) + (cos(b) - sqrt(tan(b)) * (log10(a)^5) kai duotos a ir b reikšmės \n Atsakymas apvalinamas simtuju tikslumu. Uztikriname, kad tan b >= 0. " << endl;
+			cout << "----INPUT----" << endl;
+			cout << "ivedami du realiojo tipo skaiciai a ir b ( 0 <= a, b <= 2pi)" << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvedamas vienas realiojo tipo skaicius. " << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_5();
 		}
 		else if (b == "6") {
-			cout << "Sito uzdavinio nera" << endl;
+			cout << "----SALYGA----" << endl;
+			cout << "Apskaiciuokite funkcijos reiksme, kai zinoma x reiksme: (5x^3+sin^2(e^3x-16x^2))/(((sin(4x)/(cos(4x)+1))+0!)" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "vienas naturalus skaicius x (1 <= x <= 100)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvedamas realaus tipo skaicius, dvieju skaitmenu po kablelio tikslumu." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_6();
 		}
 		else if (b == "7") {
+			cout << "----SALYGA----" << endl;
+			cout << "Duotos atkarpos galu koordinates. Apskaiciuokite atkarpos ilgi." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Keturi sveiki skaiciai x1, y1, x2, y2 (-10^6 <= x1, y1, x2, y2 <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvedamas realaus tipo skaicius, dvieju skaitmenu po kablelio tikslumu." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_7();
 		}
 		else if (b == "8") {
 		}

@@ -42,6 +42,15 @@
     <ClCompile Include="Lab1_Problem_4.cpp">
       <Filter>Source Files\Laboratorinis_1</Filter>
     </ClCompile>
+    <ClCompile Include="Lab1_Problem_5.cpp">
+      <Filter>Source Files\Laboratorinis_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1_Problem_6.cpp">
+      <Filter>Source Files\Laboratorinis_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1_Problem_7.cpp">
+      <Filter>Source Files\Laboratorinis_1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
