@@ -154,6 +154,14 @@ int main()
 			Lab1_Problem_14();
 		}
 		else if (b == "15") {
+			cout << "----SALYGA----" << endl;
+			cout << "\Exercizes\Lab1_Problem15.png" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Du sveiki skaiciai n ir m (1 <= n, m <= 10^8)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvedamas vienas skaicius." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_15();
 		}
 		else if (b == "16") {
 		}
