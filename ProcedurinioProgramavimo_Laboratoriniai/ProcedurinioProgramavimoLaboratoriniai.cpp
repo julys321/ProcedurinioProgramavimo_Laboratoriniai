@@ -144,6 +144,14 @@ int main()
 			Lab1_Problem_13();
 		}
 		else if (b == "14") {
+			cout << "----SALYGA----" << endl;
+			cout << "Apskaiciuokite lyginiu skaiciu esanciu nuo 1 iki n (imtinai) vidurki." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "vienas sveikas skaicius n (1 <= n <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isveskite vidurki." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_14();
 		}
 		else if (b == "15") {
 		}
