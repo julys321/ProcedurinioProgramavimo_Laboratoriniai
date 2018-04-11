@@ -44,6 +44,14 @@ int main()
 			Lab1_Problem_3();
 		}
 		else if (b == "4") {
+			cout << "----SALYGA----" << endl;
+			cout << "Apskaiciuokite funkcijos reiksme: x= (b+sqrt(b^2-(a*c)))/(2*a)" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Trys sveiki skaiciai a, b ir c (-106 =< a, b, c =< 106, ac =< b2 ir a != 0)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvedamas realaus tipo skaicius, triju skaitmenu po kablelio tikslumu." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_4();
 		}
 		else if (b == "5") {
 		}
