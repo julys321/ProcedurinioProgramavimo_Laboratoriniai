@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include "Header.h"
 using namespace std;
@@ -18,9 +18,20 @@ int main()
 		cin >> b;
 		system("cls");
 		if (b == "1") {
+			cout << "----SALYGA----" << endl;
+			cout << "Atspausdinkite zodi 'Laboratorinis'." << endl;
+			cout << "---------------------------------------------------" << endl;
 			Lab1_Problem_1();
 		}
 		else if (b == "2") {
+			cout << "----SALYGA----" << endl;
+			cout << "Duotos staciakampio krastines a ir b. Raskite staciakampio perimetra." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Du sveiki skaiciai a ir b (0 < a, b =< 106)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "Isveskite perimetra." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_2();
 		}
 		else if (b == "3") {
 		}
@@ -80,5 +91,6 @@ int main()
 		return 0;//pabaiga
 	}
 	system("pause");
+	system("cls");
 	main();
 }
