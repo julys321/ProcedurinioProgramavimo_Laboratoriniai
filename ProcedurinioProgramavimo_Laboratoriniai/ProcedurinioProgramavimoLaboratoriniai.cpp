@@ -114,6 +114,14 @@ int main()
 			Lab1_Problem_10();
 		}
 		else if (b == "11") {
+			cout << "----SALYGA----" << endl;
+			cout << "Duoti kvadratines lygties koeficientai a,b,c. Raskite lygties sprendinius." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Trys sveiki skaiciai a, b ir c (-10^6 <= a, b, c <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "jei yra du sprendiniai, pirmiau rasome mazesni. Sprendiniai atskiriami simboliu '_'. Jei lygtis sprendiniu neturi, isvedame 'NO'." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_11();
 		}
 		else if (b == "12") {
 		}

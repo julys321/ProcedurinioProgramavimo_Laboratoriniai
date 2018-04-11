@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="Lab1_Problem_1.cpp" />
     <ClCompile Include="Lab1_Problem_10.cpp" />
+    <ClCompile Include="Lab1_Problem_11.cpp" />
     <ClCompile Include="Lab1_Problem_2.cpp" />
     <ClCompile Include="Lab1_Problem_3.cpp" />
     <ClCompile Include="Lab1_Problem_4.cpp" />
