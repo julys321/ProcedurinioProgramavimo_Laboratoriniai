@@ -21,5 +21,10 @@ int Lab1_Problem_12();
 int Lab1_Problem_13();
 int Lab1_Problem_14();
 int Lab1_Problem_15();
+int Lab1_Problem_16();
+int Lab1_Problem_17();
+int Lab1_Problem_18();
+int Lab1_Problem_19();
+int Lab1_Problem_20();
 
 #endif

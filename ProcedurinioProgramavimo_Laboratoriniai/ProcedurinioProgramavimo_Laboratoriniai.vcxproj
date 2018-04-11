@@ -153,7 +153,12 @@
     <ClCompile Include="Lab1_Problem_13.cpp" />
     <ClCompile Include="Lab1_Problem_14.cpp" />
     <ClCompile Include="Lab1_Problem_15.cpp" />
+    <ClCompile Include="Lab1_Problem_16.cpp" />
+    <ClCompile Include="Lab1_Problem_17.cpp" />
+    <ClCompile Include="Lab1_Problem_18.cpp" />
+    <ClCompile Include="Lab1_Problem_19.cpp" />
     <ClCompile Include="Lab1_Problem_2.cpp" />
+    <ClCompile Include="Lab1_Problem_20.cpp" />
     <ClCompile Include="Lab1_Problem_3.cpp" />
     <ClCompile Include="Lab1_Problem_4.cpp" />
     <ClCompile Include="Lab1_Problem_5.cpp" />

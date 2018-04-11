@@ -164,16 +164,44 @@ int main()
 			Lab1_Problem_15();
 		}
 		else if (b == "16") {
+			cout << "----SALYGA----" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "\Exercizes\Lab1_Problem16.png" << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_16();
 		}
 		else if (b == "17") {
+			cout << "----SALYGA----" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "\Exercizes\Lab1_Problem17.png" << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_17();
 		}
 		else if (b == "18") {
+			cout << "----SALYGA----" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "\Exercizes\Lab1_Problem18.png" << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_18();
 		}
 		else if (b == "19") {
+			cout << "----SALYGA----" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "\Exercizes\Lab1_Problem19.png" << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_19();
 		}
 		else if (b == "20") {
-		}
-		else if (b == "181") {
+			cout << "----SALYGA----" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "\Exercizes\Lab1_Problem20.png" << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_20();
 		}
 		else {
 			cout << "end" << endl;
