@@ -94,9 +94,24 @@ int main()
 			Lab1_Problem_8();
 		}
 		else if (b == "9") {
-
+			cout << "----SALYGA----" << endl;
+			cout << "Duotos staciakampio krastines. Raskite i staciakampi ibrezto apskritimo plota." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "du sveiki skaiciai a ir b (0 < a, b <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvesti apskritimo plota, suapvalinus iki dvieju skaiciu po kablelio." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_9();
 		}
 		else if (b == "10") {
+			cout << "----SALYGA----" << endl;
+			cout << "skaiciuja turi 1 - ritinys 2 - kugis" << endl;
+			cout << "----INPUT----" << endl;
+			cout << "sveikojo tipo skaiciai: p h r , kai p 1 arba 2, h aukstis, r spindulys (1 <= r 40, 1 <= h <= 200)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "realiojo tipo skaicius, du skaiciai po kalblelio - pasirinktos figuros turis" << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_10();
 		}
 		else if (b == "11") {
 		}

@@ -14,5 +14,7 @@ int Lab1_Problem_5();
 int Lab1_Problem_6();
 int Lab1_Problem_7();
 int Lab1_Problem_8();
+int Lab1_Problem_9();
+int Lab1_Problem_10();
 
 #endif

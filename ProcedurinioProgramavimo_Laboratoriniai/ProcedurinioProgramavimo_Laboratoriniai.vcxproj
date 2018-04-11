@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lab1_Problem_1.cpp" />
+    <ClCompile Include="Lab1_Problem_10.cpp" />
     <ClCompile Include="Lab1_Problem_2.cpp" />
     <ClCompile Include="Lab1_Problem_3.cpp" />
     <ClCompile Include="Lab1_Problem_4.cpp" />
@@ -154,6 +155,7 @@
     <ClCompile Include="Lab1_Problem_6.cpp" />
     <ClCompile Include="Lab1_Problem_7.cpp" />
     <ClCompile Include="Lab1_Problem_8.cpp" />
+    <ClCompile Include="Lab1_Problem_9.cpp" />
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp" />
   </ItemGroup>
   <ItemGroup>
