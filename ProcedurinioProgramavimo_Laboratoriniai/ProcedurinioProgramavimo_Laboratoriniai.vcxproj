@@ -153,6 +153,7 @@
     <ClCompile Include="Lab1_Problem_5.cpp" />
     <ClCompile Include="Lab1_Problem_6.cpp" />
     <ClCompile Include="Lab1_Problem_7.cpp" />
+    <ClCompile Include="Lab1_Problem_8.cpp" />
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp" />
   </ItemGroup>
   <ItemGroup>

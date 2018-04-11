@@ -1,4 +1,4 @@
-#include <iostream>//Problem 1. 7 bandymas:1
+#include <iostream>
 #include <iomanip>
 #include <cmath>
 using namespace std;

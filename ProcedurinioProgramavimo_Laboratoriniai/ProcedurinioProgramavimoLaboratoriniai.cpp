@@ -84,8 +84,17 @@ int main()
 			Lab1_Problem_7();
 		}
 		else if (b == "8") {
+			cout << "----SALYGA----" << endl;
+			cout << "Duotos trikampio virsuniu koordinates. Apskaiciuokite trikampio plota." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "sesi sveiki skaiciai x1, y1, x2, y2, x3, y3 (-10^6 <= x1, y1, x2, y2, x3, y3 <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isvedamas realaus tipo skaicius, vieno skaitmens po kablelio tikslumu." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_8();
 		}
 		else if (b == "9") {
+
 		}
 		else if (b == "10") {
 		}
