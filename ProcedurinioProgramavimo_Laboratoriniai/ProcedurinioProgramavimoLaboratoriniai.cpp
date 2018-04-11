@@ -134,6 +134,14 @@ int main()
 			Lab1_Problem_12();
 		}
 		else if (b == "13") {
+			cout << "----SALYGA----" << endl;
+			cout << "Apskaiciuokite sveikuju skaiciu suma nuo a iki n (imtinai)." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Du sveiki skaiciai a, n (-10^6 <= a, n <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isveskite suma." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_13();
 		}
 		else if (b == "14") {
 		}
