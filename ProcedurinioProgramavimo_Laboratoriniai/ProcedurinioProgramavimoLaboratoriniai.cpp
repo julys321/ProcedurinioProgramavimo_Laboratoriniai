@@ -124,6 +124,14 @@ int main()
 			Lab1_Problem_11();
 		}
 		else if (b == "12") {
+			cout << "----SALYGA----" << endl;
+			cout << "Duoti trys skaiciai a,b,c. Raskite didziausia." << endl;
+			cout << "----INPUT----" << endl;
+			cout << "Trys sveiki skaiciai a, b ir c (-10^6 <= a, b, c <= 10^6)." << endl;
+			cout << "----OUTPUT----" << endl;
+			cout << "isveskite viena skaiciu." << endl;
+			cout << "---------------------------------------------------" << endl;
+			Lab1_Problem_12();
 		}
 		else if (b == "13") {
 		}
