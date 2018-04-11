@@ -13,24 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Laboratorinis_1">
+      <UniqueIdentifier>{4f7358f1-484f-4a9a-9e0b-4be05177f395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Laboratorinis_2">
+      <UniqueIdentifier>{d1016b8b-5d6e-42b5-be71-f2c029849490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Laboratorinis_3">
+      <UniqueIdentifier>{e54ff4f4-047d-4bf2-b1ea-c2ffc2c17141}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lab1_Problem_1.cpp">
+      <Filter>Source Files\Laboratorinis_1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
