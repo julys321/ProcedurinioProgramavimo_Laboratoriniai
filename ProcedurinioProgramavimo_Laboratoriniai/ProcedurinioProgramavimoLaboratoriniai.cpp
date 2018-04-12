@@ -240,6 +240,9 @@ int main()
 		else if (b == "9") {
 			Lab3_Problem_9();
 		}
+		else if (b == "10") {
+			Lab3_Problem_10();
+		}
 		else {
 			cout << "end" << endl;
 			//

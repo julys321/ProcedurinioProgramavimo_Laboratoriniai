@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void Keisti2(int *ap, int *bp);
-int Lab3_Problem_4()
+int Lab3_Problem_9()
 {
 	int a, b;
 	cin >> a >> b;
