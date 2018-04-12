@@ -117,6 +117,9 @@
     <ClCompile Include="Lab3_Problem_9.cpp">
       <Filter>Source Files\Laboratorinis_3</Filter>
     </ClCompile>
+    <ClCompile Include="Lab3_Problem_10.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

@@ -167,6 +167,7 @@
     <ClCompile Include="Lab1_Problem_8.cpp" />
     <ClCompile Include="Lab1_Problem_9.cpp" />
     <ClCompile Include="Lab3_Problem_1.cpp" />
+    <ClCompile Include="Lab3_Problem_10.cpp" />
     <ClCompile Include="Lab3_Problem_2.cpp" />
     <ClCompile Include="Lab3_Problem_3.cpp" />
     <ClCompile Include="Lab3_Problem_4.cpp" />
