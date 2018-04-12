@@ -231,6 +231,9 @@ int main()
 		else if (b == "6") {
 			Lab3_Problem_6();
 		}
+		else if (b == "7") {
+			Lab3_Problem_7();
+		}
 		else {
 			cout << "end" << endl;
 			//
