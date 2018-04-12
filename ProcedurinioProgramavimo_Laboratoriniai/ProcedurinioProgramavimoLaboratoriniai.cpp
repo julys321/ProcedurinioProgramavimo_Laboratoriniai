@@ -211,6 +211,27 @@ int main()
 	else if (a == "3") {
 		cout << "Trecias laboratorinis" << endl;
 		cout << "Kuri uzdavini norite paleisti? (Rinktis nuo 1 iki 20)" << endl;
+		cin >> b;
+		system("cls");
+		if (b == "1") {
+			Lab3_Problem_1();
+		}
+		else if (b == "2") {
+			Lab3_Problem_2();
+		}
+		else if (b == "3") {
+			Lab3_Problem_3();
+		}
+		else if (b == "4") {
+			Lab3_Problem_4();
+		}
+		else if (b == "5") {
+			Lab3_Problem_5();
+		}
+		else {
+			cout << "end" << endl;
+			//
+		}
 	}
 	else {
 		return 0;//pabaiga

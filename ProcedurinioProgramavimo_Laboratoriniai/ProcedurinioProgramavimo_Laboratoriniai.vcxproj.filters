@@ -90,6 +90,21 @@
     <ClCompile Include="Lab1_Problem_17.cpp">
       <Filter>Source Files\Laboratorinis_1</Filter>
     </ClCompile>
+    <ClCompile Include="Lab3_Problem_1.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_2.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_3.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_4.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_5.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

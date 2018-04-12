@@ -5,7 +5,7 @@
 //#include <iostream>
 //#include <vector>
 
-//lab1
+//Lab 1
 int Lab1_Problem_1();
 int Lab1_Problem_2();
 int Lab1_Problem_3();
@@ -26,5 +26,11 @@ int Lab1_Problem_17();
 int Lab1_Problem_18();
 int Lab1_Problem_19();
 int Lab1_Problem_20();
+//Lab 3
+int Lab3_Problem_1();
+int Lab3_Problem_2();
+int Lab3_Problem_3();
+int Lab3_Problem_4();
+int Lab3_Problem_5();
 
 #endif
