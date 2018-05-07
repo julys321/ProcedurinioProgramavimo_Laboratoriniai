@@ -243,6 +243,39 @@ int main()
 		else if (b == "10") {
 			Lab3_Problem_10();
 		}
+		else if (b == "11") {
+			Lab3_Problem_11();
+		}
+		else if (b == "12") {
+			Lab3_Problem_12();
+		}
+		else if (b == "13") {
+			Lab3_Problem_13();
+		}
+		else if (b == "14") {
+			Lab3_Problem_14();
+		}
+		else if (b == "15") {
+			Lab3_Problem_15();
+		}
+		else if (b == "16") {
+			Lab3_Problem_16();
+		}
+		else if (b == "17") {
+			Lab3_Problem_17();
+		}
+		else if (b == "18") {
+			Lab3_Problem_18();
+		}
+		else if (b == "19") {
+			Lab3_Problem_19();
+		}
+		else if (b == "20") {
+			Lab3_Problem_20();
+		}
+		else if (b == "21") {
+			Lab3_Problem_21();
+		}
 		else {
 			cout << "end" << endl;
 			//

@@ -37,5 +37,16 @@ int Lab3_Problem_7();
 int Lab3_Problem_8();
 int Lab3_Problem_9();
 int Lab3_Problem_10();
+int Lab3_Problem_11();
+int Lab3_Problem_12();
+int Lab3_Problem_13();
+int Lab3_Problem_14();
+int Lab3_Problem_15();
+int Lab3_Problem_16();
+int Lab3_Problem_17();
+int Lab3_Problem_18();
+int Lab3_Problem_19();
+int Lab3_Problem_20();
+int Lab3_Problem_21();
 
 #endif

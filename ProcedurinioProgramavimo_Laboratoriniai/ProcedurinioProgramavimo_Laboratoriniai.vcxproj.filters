@@ -25,6 +25,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="seka.txt">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp">
@@ -118,6 +121,39 @@
       <Filter>Source Files\Laboratorinis_3</Filter>
     </ClCompile>
     <ClCompile Include="Lab3_Problem_10.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_11.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_12.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_13.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_14.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_15.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_16.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_17.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_18.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_19.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_20.cpp">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Problem_21.cpp">
       <Filter>Source Files\Laboratorinis_3</Filter>
     </ClCompile>
   </ItemGroup>
