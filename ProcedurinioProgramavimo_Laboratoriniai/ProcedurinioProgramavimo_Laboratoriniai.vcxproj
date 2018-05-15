@@ -145,6 +145,7 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
     <Text Include="seka.txt" />
+    <Text Include="temp.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lab1_Problem_1.cpp" />

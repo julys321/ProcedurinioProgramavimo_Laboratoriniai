@@ -28,6 +28,9 @@
     <Text Include="seka.txt">
       <Filter>Source Files\Laboratorinis_3</Filter>
     </Text>
+    <Text Include="temp.txt">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp">
