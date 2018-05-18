@@ -37,6 +37,9 @@
     <Text Include="13.txt">
       <Filter>Source Files\Laboratorinis_3</Filter>
     </Text>
+    <Text Include="15.txt">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp">
@@ -170,5 +173,10 @@
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14.in">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </None>
   </ItemGroup>
 </Project>

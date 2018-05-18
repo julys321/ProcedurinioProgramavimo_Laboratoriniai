@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="13.txt" />
+    <Text Include="15.txt" />
     <Text Include="input.txt" />
     <Text Include="ReadMe.txt" />
     <Text Include="seka.txt" />
@@ -195,6 +196,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
