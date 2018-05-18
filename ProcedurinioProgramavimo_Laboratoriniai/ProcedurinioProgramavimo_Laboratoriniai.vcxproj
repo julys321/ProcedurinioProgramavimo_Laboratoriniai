@@ -145,6 +145,8 @@
   <ItemGroup>
     <Text Include="13.txt" />
     <Text Include="15.txt" />
+    <Text Include="18.txt" />
+    <Text Include="19.txt" />
     <Text Include="input.txt" />
     <Text Include="ReadMe.txt" />
     <Text Include="seka.txt" />

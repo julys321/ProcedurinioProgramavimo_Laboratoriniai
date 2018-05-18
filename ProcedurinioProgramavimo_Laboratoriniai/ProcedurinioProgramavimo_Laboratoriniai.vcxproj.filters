@@ -40,6 +40,12 @@
     <Text Include="15.txt">
       <Filter>Source Files\Laboratorinis_3</Filter>
     </Text>
+    <Text Include="18.txt">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </Text>
+    <Text Include="19.txt">
+      <Filter>Source Files\Laboratorinis_3</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProcedurinioProgramavimoLaboratoriniai.cpp">
