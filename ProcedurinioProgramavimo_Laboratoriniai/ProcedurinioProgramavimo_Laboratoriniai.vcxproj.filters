@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Laboratorinis_3">
       <UniqueIdentifier>{e54ff4f4-047d-4bf2-b1ea-c2ffc2c17141}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Bandomasis">
+      <UniqueIdentifier>{f05754e5-5034-4f6d-8b77-49a5ead876ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -173,6 +176,9 @@
     </ClCompile>
     <ClCompile Include="Lab3_Problem_21.cpp">
       <Filter>Source Files\Laboratorinis_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Band_Problem_1.cpp">
+      <Filter>Source Files\Bandomasis</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

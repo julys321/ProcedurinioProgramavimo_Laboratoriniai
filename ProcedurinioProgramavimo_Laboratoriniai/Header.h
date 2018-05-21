@@ -48,5 +48,8 @@ int Lab3_Problem_18();
 int Lab3_Problem_19();
 int Lab3_Problem_20();
 int Lab3_Problem_21();
-
+//band
+int Band_Problem_1();
+//Band_Problem_2();
+//Band_Problem_3();
 #endif

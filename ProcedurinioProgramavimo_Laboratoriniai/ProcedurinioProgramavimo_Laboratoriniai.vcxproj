@@ -153,6 +153,7 @@
     <Text Include="temp.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Band_Problem_1.cpp" />
     <ClCompile Include="Lab1_Problem_1.cpp" />
     <ClCompile Include="Lab1_Problem_10.cpp" />
     <ClCompile Include="Lab1_Problem_11.cpp" />

@@ -9,6 +9,7 @@ int main()
 	cout << "   Procedurinio programavimo Laboratorinis 1                    - 1" << endl;
 	cout << "   Procedurinio programavimo Laboratorinis 2------DONE-IN-JAVA-----" << endl;
 	cout << "   Procedurinio programavimo Laboratorinis 3                    - 3" << endl;
+	cout << "   Procedurinio programavimo Bandomasis                         - 4" << endl;
 	cout << "   Baigti darba                                                 - bet kas kita" << endl;
 	cin >> a;
 	system("cls");
@@ -275,6 +276,25 @@ int main()
 		}
 		else if (b == "21") {
 			Lab3_Problem_21();
+		}
+		else {
+			cout << "end" << endl;
+			//
+		}
+	}
+	else if (a == "4") {
+		cout << "Bandomasis" << endl;
+		cout << "Kuri uzdavini norite paleisti? (Rinktis nuo 1 iki x)" << endl;
+		cin >> b;
+		system("cls");
+		if (b == "1") {
+			Band_Problem_1();
+		}
+		else if (b == "2") {
+			//Band_Problem_2();
+		}
+		else if (b == "3") {
+			//Band_Problem_3();
 		}
 		else {
 			cout << "end" << endl;

@@ -3,17 +3,18 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-int compare(vector<short> &a, vector<short> &b);
-void subtract(vector<short> &a, vector<short> &b);
-void add(vector<short> &a, vector<short> &b);
+void removeFrontZeros(vector<int> &a);
+int compare(vector<int> &a, vector<int> &b);
+vector<int> subtract(vector<int> a, vector<int> b);
+vector<int> addition(std::vector<int> max, std::vector<int> min);
 int Lab3_Problem_19()
 {
-	vector<short> a;
-	vector<short> b;
+	vector<int> a;
+	vector<int> b;
 	char temp = '0';
 	vector<char> tempCharArray;
 	//ifstream in("19.txt");
-	cin.ignore(1);
+	//cin.ignore(1);
 	while (true) {
 		//in.get(temp);
 		cin.get(temp);
@@ -30,19 +31,20 @@ int Lab3_Problem_19()
 		b.push_back(temp - '0');
 	}
 	//in.close();
-	if (compare(a, b) == -1) {
-		subtract(a, b);
+	if (compare(a, b) < 1) {
+		a=subtract(a, b);
 	}
 	else {
-		add(a, b);
+		a=addition(a, b);
 	}
-	for (short i : a) {
+	removeFrontZeros(a);
+	for (int i : a) {
 		cout << i;
 	}
-	
+
 	return 0;
 }
-int compare(vector<short> &a, vector<short> &b) {
+int compare(vector<int> &a, vector<int> &b) {
 	if (a.size() > b.size())
 		return -1;
 	else if (a.size() < b.size())
@@ -57,13 +59,13 @@ int compare(vector<short> &a, vector<short> &b) {
 		return 0;
 	}
 }
-void subtract(vector<short> &a, vector<short> &b) {
-	vector<short> c;
-	short temp;
-	for (int i = 0; i < (b.size() - a.size()); i++) {
-		b.insert(b.begin(), 0);
-	}
-	for (int i = b.size()-1; i >= 0; i--) {
+vector<int> subtract(vector<int> a, vector<int> b) {
+	reverse(a.begin(), a.end());
+	reverse(b.begin(), b.end());
+	vector<int> c;
+	int temp;
+
+	for (int i = 0; i < b.size(); i++) {
 		temp = a[i] - b[i];
 		if (temp < 0) {
 			a[i - 1]--;
@@ -71,23 +73,36 @@ void subtract(vector<short> &a, vector<short> &b) {
 		}
 		c.push_back(a[i] - b[i]);
 	}
-	reverse(c.begin(), c.end());
-	a = c;
+	//reverse(c.begin(), c.end());
+	return c;
 }
-void add(vector<short> &a, vector<short> &b) {
-	vector<short> c;
-	short temp = a.size() - b.size();
-	for (int i = 0; i < (a.size() - b.size()); i++) {
-		a.insert(a.begin(), 0);
+vector<int> addition(vector<int> max, vector<int> min) {
+	if (max.size() < min.size()) {
+		max.swap(min);
 	}
-	for (int i = b.size() - 1; i >= 0; i--) {
-		temp = a[i] + b[i];
-		if (temp > 10) {
-			a[i - 1]++;
-			temp -= 10;
-		}
-		c.push_back(temp);
+	vector<int> sum;
+	int rest = 0;
+
+	for (int i = 0; i < min.size(); i++) {
+		int c = min[i] + max[i] + rest;
+		sum.push_back(c % 10);
+		rest = c / 10;
 	}
-	reverse(c.begin(), c.end());
-	a = c;
+
+	for (int i = min.size(); i < max.size(); i++) {
+		int c = max[i] + rest;
+		sum.push_back(c % 10);
+		rest = c / 10;
+	}
+	while (rest > 0) {
+		sum.push_back(rest % 10);
+		rest /= 10;
+	}
+	reverse(sum.begin(), sum.end());
+	return sum;
+}
+void removeFrontZeros(vector<int> &a) {
+	while (a[0] == 0 && a.size() > 1) {
+		a.erase(a.begin());
+	}
 }
